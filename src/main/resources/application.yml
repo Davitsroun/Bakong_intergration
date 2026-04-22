@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: bakong-api-integration
+  profiles:
+    active: dev
+# Set the active profile to 'dev' for development environment
+# You can change this to 'prod' for production environment
+
+
+# BAKONG (use env vars or profile-specific application-*.properties)
+bakong:
+  account-id: ${BAKONG_ACCOUNT_ID}
+  base-url: ${BAKONG_BASE_URL}
+  email: ${EMAIL}
+server:
+  port: 8082
