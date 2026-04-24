@@ -8,9 +8,9 @@ spring:
 
 
 # BAKONG (use env vars or profile-specific application-*.properties)
-bakong:
-  account-id: ${BAKONG_ACCOUNT_ID}
-  base-url: ${BAKONG_BASE_URL}
-  email: ${EMAIL}
+# bakong:
+#   account-id: ${BAKONG_ACCOUNT_ID}
+#   base-url: ${BAKONG_BASE_URL}
+#   email: ${EMAIL}
 server:
   port: 8082
