@@ -251,7 +251,7 @@ POST http://localhost:8080/api/v1/bakong/check-transaction
 Content-Type: application/json
 
 {
-    "md5": "2e8787edaddc31ffe9c572923db06d33"
+    "md5": "9e436145dcb1580c1796e16a9fd30b36"
 }
 ```
 
@@ -259,19 +259,23 @@ Content-Type: application/json
 
 ```json
 {
-  "responseCode": 0,
-  "responseMessage": "Success",
-  "data": {
-    "hash": "bf917e9534cac3595ee5dc5a9e7d3b120b6143ff3b368c244189cf22ed9af877",
-    "fromAccountId": "customer@bank",
-    "toAccountId": "bora_tong@aclb",
-    "currency": "USD",
-    "amount": 0.1,
-    "description": null,
-    "createdDateMs": 1772125349000,
-    "acknowledgedDateMs": 1772125351000,
-    "externalRef": "100FT36931627892"
-  }
+    "responseCode": 0,
+    "responseMessage": "Success",
+    "data": {
+        "hash": "5c6e9994b5dca19ba6c774da1330b53f1638e6f6727859a09ff90c6837c099df",
+        "fromAccountId": "cmcbkhppxxx@cmcb",
+        "toAccountId": "davit_sroun@bkrt",
+        "currency": "KHR",
+        "amount": 100,
+        "description": "TRANSFER/001OK31261194658",
+        "createdDateMs": 1777435613000,
+        "acknowledgedDateMs": 1777435615000,
+        "trackingStatus": null,
+        "receiverBank": null,
+        "receiverBankAccount": null,
+        "instructionRef": null,
+        "externalRef": "CMCBKHPPXXX/BKRTKHPPXXX/QSLct33xZo"
+    }
 }
 ```
 
